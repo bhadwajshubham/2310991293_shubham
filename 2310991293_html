@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Student Club - Chitkara University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Developer Student Club - Chitkara University</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Past Events</a></li>
+                    <li><a href="#">Organizers</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Video</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="hero.jpg" alt="Students at Chitkara University">
+            <div class="hero-text">
+                <h2>Welcome to the Developer Student Club at Chitkara University</h2>
+                <p>We are a community group for students from any academic background in their undergraduate or graduate term. By joining us, students build their professional and personal network, get access to valuable resources, and work together to build solutions for local problems in a peer-to-peer learning environment.</p>
+                <a href="#" class="btn">Join Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The Developer Student Club at Chitkara University is a vibrant community of students passionate about technology. We provide a platform for students to learn new skills, network with industry professionals, and contribute to open-source projects.</p>
+            <ul>
+                <li>Hands-on coding workshops (Beginner and Experienced)</li>
+                <li>Build side projects</li>
+                <li>Compete in the Solution Challenge</li>
+                <li>Networking events</li>
+                <li>Cloud Study Jams</li>
+                <li>DG/DE expert talks</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event">
+                <h3>Event Title</h3>
+                <p>Event Description</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="event">
+                <h3>Event Title</h3>
+                <p>Event Description</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="gallery-image1.jpg" alt="Event Photo">
+                <img src="gallery-image2.jpg" alt="Event Photo">
+                <img src="gallery-image3.jpg" alt="Event Photo">
+                <img src="gallery-image4.jpg" alt="Event Photo">
+                <img src="gallery-image5.jpg" alt="Event Photo">
+                <img src="gallery-image6.jpg" alt="Event Photo">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Developer Student Club - Chitkara University. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
