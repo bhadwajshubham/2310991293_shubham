@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero section styling */
+.hero {
+    background-color: #eee;
+    padding: 80px 0;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About section styling */
+.about {
+    padding: 40px 0;
+}
+
+.about ul {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+/* Events section styling */
+.events {
+    padding: 40px 0;
+}
+
+.event {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Gallery section styling */
+.gallery {
+    padding: 40px 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer i {
+    font-size: 1.5em;
+}
